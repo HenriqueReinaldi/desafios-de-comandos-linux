@@ -149,3 +149,7 @@
 ### Solução problema 37 (I):
 
     cut -d',' -f2 challenges/people.csv | tail -n +2
+
+### Solução problema 38 (A):
+
+    cut -d',' -f2 challenges/people.csv | tail -n +2 | sort -u | wc -l
