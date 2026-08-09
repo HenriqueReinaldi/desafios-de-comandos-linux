@@ -162,3 +162,7 @@
 ### Solução problema 40 (A):
 
     cut -d',' -f2 challenges/people.csv | sed '1d'
+
+### Solução problema 41 (A):
+
+    time { cut -d',' -f2 challenges/people.csv | tail -n +2 > /dev/null ; } ; time { cut -d',' -f2 challenges/people.csv | sed '1d' > /dev/null ; }
