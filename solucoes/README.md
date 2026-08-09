@@ -87,3 +87,7 @@
 
     gcc challenges/compile_me.c -o challenges/compile_me
     ./challenges/compile_me
+
+### Solução problema 23 (A):
+
+    ./challenges/redirect &> output.txt
