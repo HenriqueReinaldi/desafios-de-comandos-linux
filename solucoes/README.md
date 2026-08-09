@@ -37,3 +37,7 @@
 ### Solução problema 10 (B):
 
     rm empty.txt
+
+### Solução problema 11 (I):
+
+    > empty.txt
