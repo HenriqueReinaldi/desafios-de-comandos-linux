@@ -61,3 +61,7 @@
 ### Solução problema 16 (B):
 
     cat hello.txt hello_copy.txt > 2_hellos.txt
+
+### Solução problema 17 (B):
+
+    pwd
