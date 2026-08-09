@@ -95,3 +95,7 @@
 ### Solução problema 24 (B):
 
     date
+
+### Solução problema 25 (B):
+
+    top
