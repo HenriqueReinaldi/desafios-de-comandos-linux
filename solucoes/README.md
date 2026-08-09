@@ -18,9 +18,15 @@
 
     mkdir -p foo/bar/1/2/3
 
+    -p é curto de --parents, ou seja, cria parentes como necessário.
+
 ### Solução problema 6 (B):
 
     rm -rf foo
+
+    -r -> recursivo (vai entrando em pastas)
+    -f -> force     (deleta tudo na força (sem perguntar e ignorando erros))
+
 
 ### Solução problema 7 (B):
 
@@ -58,21 +64,34 @@
 
     diff hello.txt hello_copy.txt
 
+    flag -y pode ser usada para ver melhor as diferenças
+
 ### Solução problema 16 (B):
 
     cat hello.txt hello_copy.txt > 2_hellos.txt
+
+    cat é abreviação de concatenate
 
 ### Solução problema 17 (B):
 
     pwd
 
+    print working directory
+
 ### Solução problema 18 (B):
 
     ls -l challenges
 
+    -l significa long, (dê-me mais informações!)
+    ls = list
+
 ### Solução problema 19 (B):
 
     printf "(text)" | sudo tee -a challenges/restricted.txt
+
+    sudo = superuser do
+    -a = append
+
 
 ### Solução problema 20 (B):
 
@@ -83,6 +102,12 @@
     chmod +x challenges/challenge_20
     ./challenges/challenge_20
 
+
+    chmod = changemode
+    + adiciona
+    - remove
+    x r w -> execute read write (separar por virgula +w,+r,+x)
+
 ### Solução problema 22 (B):
 
     gcc challenges/compile_me.c -o challenges/compile_me
@@ -91,6 +116,8 @@
 ### Solução problema 23 (A):
 
     ./challenges/redirect &> output.txt
+
+    &> redireciona tudo (stdout + stderr), > só stdout
 
 ### Solução problema 24 (B):
 
@@ -132,6 +159,11 @@
 
     dd if=/dev/zero of=challenges/zeros bs=1M count=1
 
+    data description (disk destroyer) -> le e escreve
+    if = input file
+    of = output file
+
+
 ### Solução problema 34 (I):
 
     dd if=/dev/random of=challenges/random bs=1M count=2
@@ -140,9 +172,15 @@
 
     wc -l README.txt
 
+    wordcount 
+    -l = linhas
+
 ### Solução problema 36 (B):
 
     tac README.txt
+
+    concatenate = cat
+    etanetacnoc = tac (bizarro)
 
 ### Solução problema 37 (I):
 
@@ -161,9 +199,14 @@
 
     cut -d',' -f2 challenges/people.csv | sed '1d'
 
+    set = stream editor
+    '1d' = 1 delete // deletar linha 1
+
 ### Solução problema 41 (A):
 
     time { cut -d',' -f2 challenges/people.csv | tail -n +2 > /dev/null ; } ; time { cut -d',' -f2 challenges/people.csv | sed '1d' > /dev/null ; }
+
+    /dev/null tem NADA
 
 ### Solução problema 42 (A):
 
@@ -177,13 +220,20 @@
 
     find challenges/ -maxdepth 1 -type d | tail -n +2 | wc -l
 
+    cortei o primeiro pq é ele mesmo, mas não sei se esse sempre é o caso
+
 ### Solução problema 45 (I):
 
     find challenges/ -type f -name "*deleteme*" -delete
 
+    glob (qualquer coisa deleteme qualquer coisa)
+
 ### Solução problema 46 (I):
 
     grep -rl "You found the needle" . | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./g'
+
+    xargs usa o resultado do comando anterior como argumentos pro proximo comando
+    (caminhos onde tem "string") -> stream editor -inplace (velho, novo)
 
 ### Solução problema 47 (A):
 
@@ -198,10 +248,11 @@
     touch supercalifragilisticexpialidocious.txt
     rm !$
 
+    !$ pega o ultimo argumento do ultimo comando (supercalrigosfatrous.txt)
+
 ### Solução problema 50 (A):
 
     touch {a..c}-{1..3}.txt
-    t a c 1 3;t 1 3 a c
 
 ### BONUS:
 
