@@ -49,3 +49,7 @@
 ### Solução problema 13 (B):
 
     cp hello.txt goodbye.txt
+
+### Solução problema 14 (B):
+
+    mv goodbye.txt hello_copy.txt
