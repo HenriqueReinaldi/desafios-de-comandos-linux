@@ -104,7 +104,10 @@
 
     nproc
 
-
 ### Solução problema 27 (B):
 
     lsb_release -a
+
+### Solução problema 28 (B):
+
+    grep -rl "You found the needle"
