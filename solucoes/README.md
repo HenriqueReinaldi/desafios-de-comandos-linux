@@ -182,3 +182,7 @@
 ### Solução problema 45 (I):
 
     find challenges/ -type f -name "*deleteme*" -delete
+
+### Solução problema 46 (I):
+
+    grep -rl "You found the needle" . | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./g'
