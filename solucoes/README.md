@@ -45,3 +45,7 @@
 ### Solução problema 12 (I):
 
     > printf "" > empty.txt
+
+### Solução problema 13 (B):
+
+    cp hello.txt goodbye.txt
