@@ -77,3 +77,8 @@
 ### Solução problema 20 (B):
 
     ./challenges/hello_executable
+
+### Solução problema 21 (B):
+
+    chmod +x challenges/challenge_20
+    ./challenges/challenge_20
