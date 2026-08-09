@@ -18,6 +18,10 @@
 
     mkdir -p foo/bar/1/2/3
 
-### SOlução problema 6 (B):
+### Solução problema 6 (B):
 
     rm -rf foo
+
+### Solução problema 7 (B):
+
+    echo "Hello World"
