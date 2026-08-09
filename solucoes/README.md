@@ -91,3 +91,7 @@
 ### Solução problema 23 (A):
 
     ./challenges/redirect &> output.txt
+
+### Solução problema 24 (B):
+
+    date
