@@ -29,3 +29,7 @@
 ### Solução problema 8 (B):
 
     echo "Hello World" > hello.txt
+
+### Solução problema 9 (B):
+
+    touch empty.txt
