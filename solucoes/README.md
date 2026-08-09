@@ -65,3 +65,7 @@
 ### Solução problema 17 (B):
 
     pwd
+
+### Solução problema 18 (B):
+
+    ls -l challenges
