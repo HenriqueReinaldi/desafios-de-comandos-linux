@@ -120,3 +120,7 @@
 ### Solução problema 30 (B):
 
     cat challenges/people.csv | tail -25
+
+### Solução problema 31 (I):
+
+    diff challenges/greeting1.txt challenges/greeting2.txt -y
