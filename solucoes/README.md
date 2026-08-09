@@ -186,3 +186,7 @@
 ### Solução problema 46 (I):
 
     grep -rl "You found the needle" . | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./g'
+
+### Solução problema 47 (A):
+
+    sed 's/,/|/g' challenges/people.csv > challenges/people_pipe.csv
