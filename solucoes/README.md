@@ -33,3 +33,7 @@
 ### Solução problema 9 (B):
 
     touch empty.txt
+
+### Solução problema 10 (B):
+
+    rm empty.txt
