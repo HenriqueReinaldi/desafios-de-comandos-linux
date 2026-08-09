@@ -17,3 +17,7 @@
 ### Solução problema 5 (I):
 
     mkdir -p foo/bar/1/2/3
+
+### SOlução problema 6 (B):
+
+    rm -rf foo
