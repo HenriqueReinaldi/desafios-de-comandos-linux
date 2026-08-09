@@ -73,3 +73,7 @@
 ### Solução problema 19 (B):
 
     printf "(text)" | sudo tee -a challenges/restricted.txt
+
+### Solução problema 20 (B):
+
+    ./challenges/hello_executable
