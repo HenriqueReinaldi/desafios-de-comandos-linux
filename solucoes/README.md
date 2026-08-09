@@ -178,3 +178,7 @@
 ### Solução problema 44 (I):
 
     find challenges/ -maxdepth 1 -type d | tail -n +2 | wc -l
+
+### Solução problema 45 (I):
+
+    find challenges/ -type f -name "*deleteme*" -delete
