@@ -111,3 +111,8 @@
 ### Solução problema 28 (B):
 
     grep -rl "You found the needle"
+
+
+### Solução problema 29 (B):
+
+    cat challenges/people.csv | head -25
