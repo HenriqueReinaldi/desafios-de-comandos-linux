@@ -9,3 +9,7 @@
 ### Solução problema 3 (B):
 
     dir challenges
+
+### Solução problema 4 (I):
+
+    mkdir foo
