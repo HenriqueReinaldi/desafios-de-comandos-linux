@@ -197,3 +197,7 @@
 
     touch supercalifragilisticexpialidocious.txt
     rm !$
+
+### Solução problema 50 (A):
+
+    touch {a..c}-{1..3}.txt
