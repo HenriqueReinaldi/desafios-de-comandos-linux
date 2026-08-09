@@ -112,7 +112,6 @@
 
     grep -rl "You found the needle"
 
-
 ### Solução problema 29 (B):
 
     cat challenges/people.csv | head -25
@@ -140,7 +139,6 @@
 ### Solução problema 35 (I):
 
     wc -l README.txt
-
 
 ### Solução problema 36 (B):
 
@@ -190,3 +188,7 @@
 ### Solução problema 47 (A):
 
     sed 's/,/|/g' challenges/people.csv > challenges/people_pipe.csv
+
+### Solução problema 48 (A):
+
+    find . -type f ! -path "./file001.rand" -exec cmp -s "file001.rand" {} \; -print
