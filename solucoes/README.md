@@ -136,3 +136,7 @@
 ### Solução problema 34 (I):
 
     dd if=/dev/random of=challenges/random bs=1M count=2
+
+### Solução problema 35 (I):
+
+    wc -l README.txt
