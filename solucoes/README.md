@@ -69,3 +69,7 @@
 ### Solução problema 18 (B):
 
     ls -l challenges
+
+### Solução problema 19 (B):
+
+    printf "(text)" | sudo tee -a challenges/restricted.txt
