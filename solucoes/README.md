@@ -128,3 +128,7 @@
 ### Solução problema 32 (I):
 
     printf "Hello "; sleep 5; printf "world! \n"
+
+### Solução problema 33 (I):
+
+    dd if=/dev/zero of=challenges/zeros bs=1M count=1
