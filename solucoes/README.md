@@ -192,3 +192,8 @@
 ### Solução problema 48 (A):
 
     find . -type f ! -path "./file001.rand" -exec cmp -s "file001.rand" {} \; -print
+
+### Solução problema 49 (A):
+
+    touch supercalifragilisticexpialidocious.txt
+    rm !$
