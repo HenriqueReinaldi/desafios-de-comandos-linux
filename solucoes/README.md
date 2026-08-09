@@ -99,3 +99,7 @@
 ### Solução problema 25 (B):
 
     top
+
+### Solução problema 26 (B):
+
+    nproc
