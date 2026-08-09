@@ -170,3 +170,7 @@
 ### Solução problema 42 (A):
 
     cut -d',' -f4 challenges/people.csv | tail -n +2 | grep Josiah | wc -l
+
+### Solução problema 43 (I):
+
+    find challenges/ -maxdepth 1 -type f | wc -l
