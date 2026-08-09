@@ -25,3 +25,7 @@
 ### Solução problema 7 (B):
 
     echo "Hello World"
+
+### Solução problema 8 (B):
+
+    echo "Hello World" > hello.txt
