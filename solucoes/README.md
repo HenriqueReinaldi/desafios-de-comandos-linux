@@ -174,3 +174,7 @@
 ### Solução problema 43 (I):
 
     find challenges/ -maxdepth 1 -type f | wc -l
+
+### Solução problema 44 (I):
+
+    find challenges/ -maxdepth 1 -type d | tail -n +2 | wc -l
