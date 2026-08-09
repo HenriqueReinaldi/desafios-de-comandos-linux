@@ -5,3 +5,7 @@
 ### Solução problema 2 (B):
 
     cd challenges/
+
+### Solução problema 3 (B):
+
+    dir challenges
