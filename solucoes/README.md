@@ -103,3 +103,8 @@
 ### Solução problema 26 (B):
 
     nproc
+
+
+### Solução problema 27 (B):
+
+    lsb_release -a
