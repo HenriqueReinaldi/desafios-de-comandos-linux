@@ -140,3 +140,8 @@
 ### Solução problema 35 (I):
 
     wc -l README.txt
+
+
+### Solução problema 36 (B):
+
+    tac README.txt
