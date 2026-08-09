@@ -116,3 +116,7 @@
 ### Solução problema 29 (B):
 
     cat challenges/people.csv | head -25
+
+### Solução problema 30 (B):
+
+    cat challenges/people.csv | tail -25
