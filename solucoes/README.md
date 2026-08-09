@@ -41,3 +41,7 @@
 ### Solução problema 11 (I):
 
     > empty.txt
+
+### Solução problema 12 (I):
+
+    > printf "" > empty.txt
