@@ -158,3 +158,7 @@
 
     o cara pensou que mogava mas eu tinha percebido o problema,
     " | tail -n +2" serve pra resolver isso, (tudo da linha 2 (incluso) pra baixo)
+
+### Solução problema 40 (A):
+
+    cut -d',' -f2 challenges/people.csv | sed '1d'
