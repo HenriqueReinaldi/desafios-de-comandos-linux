@@ -132,3 +132,7 @@
 ### Solução problema 33 (I):
 
     dd if=/dev/zero of=challenges/zeros bs=1M count=1
+
+### Solução problema 34 (I):
+
+    dd if=/dev/random of=challenges/random bs=1M count=2
