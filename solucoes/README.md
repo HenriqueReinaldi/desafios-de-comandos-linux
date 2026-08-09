@@ -166,3 +166,7 @@
 ### Solução problema 41 (A):
 
     time { cut -d',' -f2 challenges/people.csv | tail -n +2 > /dev/null ; } ; time { cut -d',' -f2 challenges/people.csv | sed '1d' > /dev/null ; }
+
+### Solução problema 42 (A):
+
+    cut -d',' -f4 challenges/people.csv | tail -n +2 | grep Josiah | wc -l
