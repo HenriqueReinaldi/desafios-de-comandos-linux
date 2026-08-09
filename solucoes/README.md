@@ -53,3 +53,7 @@
 ### Solução problema 14 (B):
 
     mv goodbye.txt hello_copy.txt
+
+### Solução problema 15 (I):
+
+    diff hello.txt hello_copy.txt
