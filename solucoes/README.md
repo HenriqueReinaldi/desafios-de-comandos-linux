@@ -10,6 +10,10 @@
 
     dir challenges
 
-### Solução problema 4 (I):
+### Solução problema 4 (B):
 
     mkdir foo
+
+### Solução problema 5 (I):
+
+    mkdir -p foo/bar/1/2/3
