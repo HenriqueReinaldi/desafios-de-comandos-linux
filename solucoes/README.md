@@ -82,3 +82,8 @@
 
     chmod +x challenges/challenge_20
     ./challenges/challenge_20
+
+### Solução problema 22 (B):
+
+    gcc challenges/compile_me.c -o challenges/compile_me
+    ./challenges/compile_me
