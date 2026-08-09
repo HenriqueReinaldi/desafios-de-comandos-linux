@@ -201,3 +201,17 @@
 ### Solução problema 50 (A):
 
     touch {a..c}-{1..3}.txt
+    t a c 1 3;t 1 3 a c
+
+### BONUS:
+
+    você tem dois comandos para: 
+        1. repetir a criação dos arquivos do problema 50
+        2. criar mais um conjunto de arquivos, só que dessa vez invertido (N-L.txt)
+
+        3. o primeiro comando deve ter menos de 45 caracteres
+        4. o segundo comando deve ter menos de 20 caracteres
+
+
+    b(){ eval touch "{$1..$2}-{$3..$4}.txt";}
+    b 1 3 a c;b a c 1 3
