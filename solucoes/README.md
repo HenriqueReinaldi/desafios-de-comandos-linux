@@ -57,3 +57,7 @@
 ### Solução problema 15 (I):
 
     diff hello.txt hello_copy.txt
+
+### Solução problema 16 (B):
+
+    cat hello.txt hello_copy.txt > 2_hellos.txt
