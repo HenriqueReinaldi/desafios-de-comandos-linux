@@ -145,3 +145,7 @@
 ### Solução problema 36 (B):
 
     tac README.txt
+
+### Solução problema 37 (I):
+
+    cut -d',' -f2 challenges/people.csv | tail -n +2
