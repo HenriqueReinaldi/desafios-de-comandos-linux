@@ -153,3 +153,8 @@
 ### Solução problema 38 (A):
 
     cut -d',' -f2 challenges/people.csv | tail -n +2 | sort -u | wc -l
+
+### Solução problema 39 (A):
+
+    o cara pensou que mogava mas eu tinha percebido o problema,
+    " | tail -n +2" serve pra resolver isso, (tudo da linha 2 (incluso) pra baixo)
